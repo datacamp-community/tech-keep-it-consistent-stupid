@@ -1,6 +1,5 @@
-[If Hemingway Wrote JavaScript](https://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854) I bet he would keep it consistent
-for the whole codebase. When reading a book you do not think about style inconsistencies as books are written in one manner. It makes them
-easy to read and understand. You don't have to focus on looking for punctuation marks, you know when new sentences start, you know that commas split a sentence into logical parts.
+[If Hemingway Wrote JavaScript](https://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854) I bet he would keep it consistent for the whole codebase. When reading a book, you do not think about style inconsistencies as books are written in one manner. It makes them easy to read and understand. You don't have to focus on looking for punctuation marks, you know when new sentences start, you know that commas split a sentence into logical parts.
+
 What if that wouldn't be the case? How about reading something like:
 
 ```
@@ -27,18 +26,16 @@ Lines of light ranged in the nonspace of the mind, clusters and constellations o
 
 I bet it is much easier to read now.
 
-I believe reading a good codebase is similar to reading a well written book. If the whole codebase is written in the same style it is much easier to understand abstractions
-without switching contexts between different coding styles. Therefore we should follow a rule to **K**eep **I**t **C**onsistent **S**tupid! Hence **KICS** (resemblance to [KISS](https://en.wikipedia.org/wiki/KISS_principle) intended).
+I believe reading a good codebase is similar to reading a well written book. If the whole codebase is written in the same style, it is much easier to understand abstractions without switching contexts between different coding styles. Therefore, we should follow a rule to **K**eep **I**t **C**onsistent **S**tupid! Hence **KICS** (the resemblance to [KISS](https://en.wikipedia.org/wiki/KISS_principle) intended).
 
-Codebase can have as many coding styles, as there are developers in a team. That is why it is important to agree on some rules as we do read code much more often then we write it.
+Codebase can have as many coding styles, as there are developers in a team. That is why it is important to agree on some rules as we do read code much more often than we write it.
 
-When writing new code I often ask myself simple questions like:
-1. Even if I am used to particular coding style would it be applicable in the current file, would it make it easy to read?
-1. Even if I am not a fan of a particular coding style would it make sense to force my approach here?
+When writing new code, I often ask myself simple questions like:
+1. Even if I am used to particular coding style, would it be applicable in the current file, would it make it easy to read?
+1. Even if I am not a fan of a particular coding style, would it make sense to force my approach here?
 1. What have we used in other files?
 
-Of course we shouldn't Copy & Paste code and duplicate badly written blocks, it is a developer's responsibility to detect things like that and refactor it
-in two places if needed.
+Of course, we shouldn't copy-paste code and duplicate badly written blocks: it is a developer's responsibility to detect things like that and refactor it in two places if needed.
 
 Let's see a simple Ruby example:
 
@@ -79,7 +76,7 @@ def check_zombie?
 end
 ```
 
-It does not really matter to which one we agree on, important is to keep it consistent not only in context of one file but in context of the whole codebase.
+It does not really matter to which one we agree on. It is important to keep it consistent not only in context of one file but also in context of the whole codebase.
 As in the book analogy - you wouldn't like to have text consistent only in context of single pages and read different styles when you go to the next one.
 
 Good design is the best indicator of your identity and skills as a developer, coding style is next in line.
